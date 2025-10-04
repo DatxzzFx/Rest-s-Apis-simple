@@ -1,0 +1,9 @@
+{
+  "functions": {
+    "api/aio.js": { "maxDuration": 10 }
+  },
+  "rewrites": [
+    { "source": "/api/aio", "destination": "/api/aio" },
+    { "source": "/(.*)", "destination": "/$1" }
+  ]
+}
