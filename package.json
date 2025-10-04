@@ -1,0 +1,10 @@
+{
+  "name": "aio-downloader",
+  "version": "1.0.0",
+  "description": "Simple AIO downloader backend",
+  "main": "api/aio.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.2"
+  }
+}
